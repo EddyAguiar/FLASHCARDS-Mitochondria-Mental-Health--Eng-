@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitochondria & Mental Health Flashcards</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f8fc;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .flashcard {
+      width: 300px;
+      height: auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+    }
+    .flashcard h3 {
+      color: #114b5f;
+    }
+    .flashcard p {
+      display: none;
+      margin: 10px 0;
+    }
+    .flashcard.active p {
+      display: block;
+    }
+    .label {
+      font-weight: bold;
+      color: #028090;
+    }
+    .check {
+      color: #27ae60;
+      font-weight: bold;
+    }
+    .warning {
+      color: #e76f51;
+      font-weight: bold;
+    }
+    .example {
+      background: #f1f9ff;
+      padding: 10px;
+      border-left: 4px solid #3d5a80;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.flashcard');
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('active');
+      });
+    });
+  });
+</script>
+
+<!-- Flashcards start -->
+<div class="flashcard">
+  <h3>🧬 What are mitochondria beyond “powerhouses”?</h3>
+  <p><span class="label check">✅ Answer:</span> Mitochondria regulate neurotransmitters, hormones, and inflammation—not just produce energy.</p>
+  <p><span class="label check">✅ Explanation:</span> These functions are vital for cell survival and communication in the brain.</p>
+  <div class="example"><strong>🧪 Example:</strong> Dysfunctional mitochondria may impair serotonin signaling, triggering mood issues.</div>
+</div>
+
+<div class="flashcard">
+  <h3>🧠 What is the Brain Energy Theory?</h3>
+  <p><span class="label check">✅ Answer:</span> All mental disorders are metabolic disorders of the brain rooted in mitochondrial dysfunction.</p>
+  <p><span class="label check">✅ Explanation:</span> Impaired brain cell energy leads to disordered thinking, mood, and behavior.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🔗 How do mitochondria affect mental health?</h3>
+  <p><span class="label check">✅ Answer:</span> Faulty mitochondria disrupt brain cell energy, leading to psychiatric symptoms.</p>
+  <p><span class="label check">✅ Explanation:</span> Energy-starved neurons misfire, contributing to depression, anxiety, or schizophrenia.</p>
+  <div class="example"><strong>🧪 Example:</strong> Bipolar disorder often shows mitochondrial irregularities in patient scans.</div>
+</div>
+
+<div class="flashcard">
+  <h3>🤝 Are mental and physical disorders connected?</h3>
+  <p><span class="label check">✅ Answer:</span> Yes—both often share underlying mitochondrial dysfunctions.</p>
+  <p><span class="label check">✅ Explanation:</span> Conditions like diabetes and depression can co-occur due to shared metabolic roots.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🏃‍♀️ How do lifestyle factors affect mitochondria?</h3>
+  <p><span class="label check">✅ Answer:</span> Sleep, exercise, diet, and stress directly influence mitochondrial function.</p>
+  <p><span class="label check">✅ Explanation:</span> Healthy habits support energy production and reduce inflammation in the brain.</p>
+  <div class="example"><strong>🧪 Example:</strong> Ketogenic diets may stabilize mood via improved mitochondrial function.</div>
+</div>
+
+<div class="flashcard">
+  <h3>💊 What about medication and therapy?</h3>
+  <p><span class="label check">✅ Answer:</span> Many psychiatric meds improve mitochondrial and metabolic functions.</p>
+  <p><span class="label check">✅ Explanation:</span> Their effectiveness may stem from enhanced cell energy and reduced stress.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🥗 Can diet help treat mental illness?</h3>
+  <p><span class="label check">✅ Answer:</span> Certain diets can optimize mitochondrial function and reduce symptoms.</p>
+  <p><span class="label check">✅ Explanation:</span> Nutritional interventions affect brain metabolism and neuroplasticity.</p>
+</div>
+
+<div class="flashcard">
+  <h3>😰 How does trauma impact mitochondria?</h3>
+  <p><span class="label warning">⚠️ Answer:</span> Chronic stress increases inflammation and damages mitochondria.</p>
+  <p><span class="label warning">⚠️ Explanation:</span> This worsens mood disorders and cognitive decline over time.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🚀 Why is this theory revolutionary?</h3>
+  <p><span class="label check">✅ Answer:</span> It unifies mental and physical disorders under a metabolic lens.</p>
+  <p><span class="label check">✅ Explanation:</span> It offers a science-based root cause model with lifestyle-based solutions.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🔄 What does healing look like?</h3>
+  <p><span class="label check">✅ Answer:</span> Supporting mitochondrial health can reduce or even reverse mental illness.</p>
+  <p><span class="label check">✅ Explanation:</span> Treatments include sleep, diet, exercise, stress control, and metabolic therapies.</p>
+</div>
+<!-- Flashcards end -->
+
+</body>
+</html>
